@@ -1,0 +1,189 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="412dp"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".MainActivityCadastroMetas"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-54dp">
+
+    <!-- Registro de Metas -->
+    <TextView
+        android:id="@+id/RegistroMetasText"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:autoSizeStepGranularity="48dp"
+        android:text="Registro de Metas"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/CadastroMetaAgua"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!-- Meta de Água -->
+    <EditText
+        android:id="@+id/CadastroMetaAgua"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Água"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Lazer -->
+    <EditText
+        android:id="@+id/CadastroMetaLazer"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Lazer"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Trabalho -->
+    <EditText
+        android:id="@+id/CadastroMetaTrabalho"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Trabalho"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Alimentação -->
+    <EditText
+        android:id="@+id/CadastroMetaAlimentacao"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Alimentação"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Estudo -->
+    <EditText
+        android:id="@+id/CadastroMetaEstudo"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Estudo"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Sono -->
+    <EditText
+        android:id="@+id/CadastroMetaSono"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Sono"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Leitura -->
+    <EditText
+        android:id="@+id/CadastroMetaLeitura"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Leitura"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Treino -->
+    <EditText
+        android:id="@+id/CadastroMetaTreino"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="556dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Treino"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Meta de Rede Social -->
+    <EditText
+        android:id="@+id/CadastroMetaRedeSocial"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="624dp"
+        android:background="@drawable/caixa_text_padrao"
+        android:ems="10"
+        android:hint="Meta de Rede Social"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Botão de salvar -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SalvarMetas"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="668dp"
+        android:background="@drawable/botaofundo"
+        android:text="Cadastrar Metas"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="@+id/RegistroMetasText"
+        tools:layout_editor_absoluteX="40dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

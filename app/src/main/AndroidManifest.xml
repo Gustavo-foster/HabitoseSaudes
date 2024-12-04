@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HabitosSaude"
+        tools:targetApi="31">
+
+        <!-- Atividades que não são exportadas para outros apps -->
+        <activity
+            android:name=".MainActivityCadastroMetas"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeAlimentacao"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeTrabalho"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeRedeSocial"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeEstudar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeLer"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeLazer"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeTreinar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeDormir"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityRegistroAtividadeAgua"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitySelecaoAtividade"
+            android:exported="false" />
+
+        <!-- Corrigido: A MainActivityCadastro precisa ser exportada -->
+        <activity
+            android:name=".MainActivityCadastro"
+            android:exported="true" /> <!-- Permite navegação entre telas -->
+
+        <!-- Corrigido: A MainActivityLogin deve ser 'false' para não ser acessada diretamente -->
+        <activity
+            android:name=".MainActivityLogin"
+            android:exported="false" />
+
+        <!-- Atividade principal do app -->
+        <activity
+            android:name=".MainActivityTelaInicio"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
