@@ -33,7 +33,7 @@ public class MainActivityRegistroAtividadeLazer extends AppCompatActivity {
         registroQuantidadeLazer = findViewById(R.id.RegistroQuantidadeLazer);
         metaDiariaLazer = findViewById(R.id.MetaDiariaLazer);
         resultadoTextView = findViewById(R.id.textView);
-        salvarRegistroLazer = findViewById(R.id.SalvarRegistroEstudo);
+        salvarRegistroLazer = findViewById(R.id.SalvarRegistroLazer);
         limpaRegistroLazer = findViewById(R.id.LimpaRegistroLazer);
 
         // Aplica os insets do sistema para ajuste correto
